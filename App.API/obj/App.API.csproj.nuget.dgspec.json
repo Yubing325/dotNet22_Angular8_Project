@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "/media/leon/Back-up/MyProjects/NetCoreAngular8/dotNet22_Angular8_Project/App.API/App.API.csproj": {}
+  },
+  "projects": {
+    "/media/leon/Back-up/MyProjects/NetCoreAngular8/dotNet22_Angular8_Project/App.API/App.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/leon/Back-up/MyProjects/NetCoreAngular8/dotNet22_Angular8_Project/App.API/App.API.csproj",
+        "projectName": "App.API",
+        "projectPath": "/media/leon/Back-up/MyProjects/NetCoreAngular8/dotNet22_Angular8_Project/App.API/App.API.csproj",
+        "packagesPath": "/home/leon/.nuget/packages/",
+        "outputPath": "/media/leon/Back-up/MyProjects/NetCoreAngular8/dotNet22_Angular8_Project/App.API/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/leon/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
