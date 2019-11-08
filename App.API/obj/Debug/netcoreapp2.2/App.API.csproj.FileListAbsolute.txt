@@ -1,0 +1,14 @@
+/media/leon/Back-up/MyProjects/NetCoreAngular8/dotNet22_Angular8_Project/App.API/bin/Debug/netcoreapp2.2/App.API.deps.json
+/media/leon/Back-up/MyProjects/NetCoreAngular8/dotNet22_Angular8_Project/App.API/bin/Debug/netcoreapp2.2/App.API.runtimeconfig.json
+/media/leon/Back-up/MyProjects/NetCoreAngular8/dotNet22_Angular8_Project/App.API/bin/Debug/netcoreapp2.2/App.API.runtimeconfig.dev.json
+/media/leon/Back-up/MyProjects/NetCoreAngular8/dotNet22_Angular8_Project/App.API/bin/Debug/netcoreapp2.2/App.API.dll
+/media/leon/Back-up/MyProjects/NetCoreAngular8/dotNet22_Angular8_Project/App.API/bin/Debug/netcoreapp2.2/App.API.pdb
+/media/leon/Back-up/MyProjects/NetCoreAngular8/dotNet22_Angular8_Project/App.API/obj/Debug/netcoreapp2.2/App.API.csprojAssemblyReference.cache
+/media/leon/Back-up/MyProjects/NetCoreAngular8/dotNet22_Angular8_Project/App.API/obj/Debug/netcoreapp2.2/App.API.csproj.CoreCompileInputs.cache
+/media/leon/Back-up/MyProjects/NetCoreAngular8/dotNet22_Angular8_Project/App.API/obj/Debug/netcoreapp2.2/App.API.RazorAssemblyInfo.cache
+/media/leon/Back-up/MyProjects/NetCoreAngular8/dotNet22_Angular8_Project/App.API/obj/Debug/netcoreapp2.2/App.API.RazorAssemblyInfo.cs
+/media/leon/Back-up/MyProjects/NetCoreAngular8/dotNet22_Angular8_Project/App.API/obj/Debug/netcoreapp2.2/App.API.AssemblyInfoInputs.cache
+/media/leon/Back-up/MyProjects/NetCoreAngular8/dotNet22_Angular8_Project/App.API/obj/Debug/netcoreapp2.2/App.API.AssemblyInfo.cs
+/media/leon/Back-up/MyProjects/NetCoreAngular8/dotNet22_Angular8_Project/App.API/obj/Debug/netcoreapp2.2/App.API.RazorTargetAssemblyInfo.cache
+/media/leon/Back-up/MyProjects/NetCoreAngular8/dotNet22_Angular8_Project/App.API/obj/Debug/netcoreapp2.2/App.API.dll
+/media/leon/Back-up/MyProjects/NetCoreAngular8/dotNet22_Angular8_Project/App.API/obj/Debug/netcoreapp2.2/App.API.pdb
