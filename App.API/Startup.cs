@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using App.API.Data;
 using App.API.Helpers;
+using AutoMapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics;
@@ -41,6 +42,7 @@ namespace App.API
                                 Newtonsoft.Json.ReferenceLoopHandling.Ignore;
                     });
             services.AddCors();
+            services.AddAutoMapper(typeof(DatingRepository).Assembly);
             services.AddScoped<IAuthRepository, AuthRepository>();
             services.AddScoped<IDatingRepository, DatingRepository>();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
