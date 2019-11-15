@@ -1,4 +1,6 @@
+using System.Collections.Generic;
 using System.Threading.Tasks;
+using App.API.Models;
 
 namespace App.API.Data
 {
@@ -9,6 +11,8 @@ namespace App.API.Data
 
          Task<bool> SaveAll();
 
-         
+         Task<IEnumerable<User>> GetUsers();
+
+         Task<User> GetUser(int id);
     }
 }
