@@ -59,27 +59,18 @@
               <h4>Location: </h4>
               <div class="form-inline">
                 <label for="city">City</label>
-                <input type="text" class="form-control" name="city" [(ngModel)]="user.city">
-                <label for="city">Country</label>
-                <input type="text" class="form-control" name="country" [(ngModel)]="user.country">
+                <input type="text" class="form-control ml-3" name="city" [(ngModel)]="user.city">
+                <label for="city" class="ml-2">Country</label>
+                <input type="text" class="form-control ml-3" name="country" [(ngModel)]="user.country">
               </div>
-              <button [disabled]="!editForm.dirty" class="btn btn-success w-100">Save Changes</button>
+              <button [disabled]="!editForm.dirty" class="btn btn-success w-100 mt-5 col-3" >Save Changes</button>
            </form>
         </tab>
 
-        <tab heading="Edit Photos">
-        
-          <p>Edit photo</p>
-         
+        <tab heading="Edit Photos">        
+          <p>Edit photo</p>         
         </tab>
-
-       
-
-
         </tabset>
-
-
-        
       </div>
     </div>
   </div>
