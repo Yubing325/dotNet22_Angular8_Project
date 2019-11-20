@@ -1,10 +1,12 @@
 using System.Threading.Tasks;
 using App.API.Data;
 using App.API.DTOs;
+using App.API.Models;
 using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Security.Claims;
 
 namespace App.API.Controllers
 {
@@ -40,6 +42,23 @@ namespace App.API.Controllers
             var userToReturn = _mapper.Map<UserDetailDto>(user);
 
             return Ok(userToReturn);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateProfile(int id, EditProfileDto model){
+            
+            if(id !=int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value))
+                return Unauthorized();
+            
+            var userFromRepo = await _repo.GetUser(id);
+           
+            //setup mapper profile
+             _mapper.Map(model, userFromRepo);
+            if (await _repo.SaveAll())
+                return NoContent();
+            throw new System.Exception($"Updateding profile with userId: {id} failed");
+            
+
         }
 
     }
